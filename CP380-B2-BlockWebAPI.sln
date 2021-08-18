@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP380-B2-BlockWebAPI", "CP380-B2-BlockWebAPI\CP380-B2-BlockWebAPI.csproj", "{FDC2A90C-E119-4D47-A666-71172E64AA27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP380-B1-BlockList", "..\CP380-B1-BlockList-master\CP380-B1-BlockList\CP380-B1-BlockList.csproj", "{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {838CE1E7-8140-484C-8EAE-03EB8375F49D}
+	EndGlobalSection
+EndGlobal
