@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP380-B2-BlockWebAPI", "CP380-B2-BlockWebAPI\CP380-B2-BlockWebAPI.csproj", "{FDC2A90C-E119-4D47-A666-71172E64AA27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP380-B1-BlockList", "..\CP380-B1-BlockList-master\CP380-B1-BlockList\CP380-B1-BlockList.csproj", "{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP380-B1-BlockList", "CP380-B1-BlockList-master\CP380-B1-BlockList\CP380-B1-BlockList.csproj", "{345FD80B-ADB6-4754-9C12-3EC4D34FAE52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC2A90C-E119-4D47-A666-71172E64AA27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D8AA620-3AB3-4E57-9B97-35AEC5743FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345FD80B-ADB6-4754-9C12-3EC4D34FAE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345FD80B-ADB6-4754-9C12-3EC4D34FAE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345FD80B-ADB6-4754-9C12-3EC4D34FAE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345FD80B-ADB6-4754-9C12-3EC4D34FAE52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
