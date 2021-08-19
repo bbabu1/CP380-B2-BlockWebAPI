@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj": {}
+    "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj": {
+    "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj",
+        "projectUniqueName": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj",
         "projectName": "CP380-B1-BlockList",
-        "projectPath": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj",
+        "projectPath": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj",
         "packagesPath": "C:\\Users\\localstudent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\obj\\",
+        "outputPath": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj": {
+    "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj",
         "projectName": "CP380-B2-BlockWebAPI",
-        "projectPath": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj",
+        "projectPath": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\CP380-B2-BlockWebAPI.csproj",
         "packagesPath": "C:\\Users\\localstudent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -98,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj": {
-                "projectPath": "C:\\Users\\localstudent\\Desktop\\CP380-B2-BlockWebAPI bony\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj"
+              "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj": {
+                "projectPath": "C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master (2)\\CP380-B2-BlockWebAPI-master\\CP380-B1-BlockList-master\\CP380-B1-BlockList\\CP380-B1-BlockList.csproj"
               }
             }
           }
