@@ -43,24 +43,37 @@ namespace CP380_B2_BlockWebAPI.Controllers
         
         {
             List<Block> blocks = _blockList.Chain.ToList();
-
+            var i = 0;
             List<BlockSummary> blockSummaryList = new List<BlockSummary>();
             foreach (var bl in blocks)
             {
                 _blockList.AddBlock(bl);
-                blockSummaryList.Add(new BlockSummary()
+                if (i != 0)
                 {
-                    Hash = bl.Hash,
-                    PreviousHash = bl.PreviousHash,
-                    TimeStamp = bl.TimeStamp,
-                });
+                    blockSummaryList.Add(new BlockSummary()
+                    {
+                        Hash = bl.Hash,
+                        PreviousHash = bl.PreviousHash,
+                        TimeStamp = bl.TimeStamp,
+                    });
+                }
+                else
+                {
+                    blockSummaryList.Add(new BlockSummary()
+                    {
+                        Hash = bl.Hash,
+                        PreviousHash = null,
+                        TimeStamp = bl.TimeStamp,
+                    });
+                }
+                i++;
             }
             return blockSummaryList;
 
         }
 
 
-        [HttpGet("/{hash}")]
+        [HttpGet("/block/{hash}")]
         
         
         public ActionResult<Block> Get(string hash)
@@ -75,24 +88,18 @@ namespace CP380_B2_BlockWebAPI.Controllers
                 return NotFound();
         }
 
-       
-        
-        [HttpGet("/{hash}/Payloads")]
-        
+
+
+        [HttpGet("/blocklist/{hash}/Payloads")]
+
         public ActionResult<List<Payload>> GetPayload(string hash)
-        
-        
+
+
         {
 
             var bl = _blockList.Chain.Where(tempBl => tempBl.Hash == hash);
-            int count = bl.Count();
-            if (count > 0)
-            {
-                var fv = bl.Select(vl => vl.Data)
-                    .First().ToList();
-                return fv;
-                 }
-
+            return bl.Select(tempBl => tempBl.Data).First();
+        }
         [HttpPost]
         public void Post(Block block)
         {
@@ -105,10 +112,10 @@ namespace CP380_B2_BlockWebAPI.Controllers
 
             }
 
-            }
+            
             else
             {
-                return NotFound();
+                BadRequest();
             }
         }
 
@@ -119,4 +126,4 @@ namespace CP380_B2_BlockWebAPI.Controllers
 
 }
 }
-}
+
