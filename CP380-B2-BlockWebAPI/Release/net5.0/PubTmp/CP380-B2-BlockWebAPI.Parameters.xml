@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CP380B2Blockwebapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\localstudent\\Desktop\\bonnyCP380-B2-BlockWebAPI-master\ \(2\)\\CP380-B2-BlockWebAPI-master\\CP380-B2-BlockWebAPI\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
