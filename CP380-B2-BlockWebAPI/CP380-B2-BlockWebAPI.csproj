@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CP380-B1-BlockList-master\CP380-B1-BlockList\CP380-B1-BlockList.csproj" />
+    <ProjectReference Include="..\CP380-B1-BlockList-master\CP380-B1-BlockList\CP380-B1-BlockList.csproj" />
   </ItemGroup>
 
 </Project>
