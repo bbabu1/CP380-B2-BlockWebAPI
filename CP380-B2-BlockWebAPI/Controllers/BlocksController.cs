@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CP380_B1_BlockList.Models;
 using CP380_B2_BlockWebAPI.Models;
+using CP380_B2_BlockWebAPI.Services;
 
 
 
@@ -90,6 +91,19 @@ namespace CP380_B2_BlockWebAPI.Controllers
                 var fv = bl.Select(vl => vl.Data)
                     .First().ToList();
                 return fv;
+                 }
+
+        [HttpPost]
+        public void Post(Block block)
+        {
+            payloadList = new PendingPayloads().payloads;
+            var tmpBlock = _blockList.Chain[_blockList.Chain.Count - 1];
+            var block1 = new Block(tmpBlock.TimeStamp, tmpBlock.PreviousHash, payloadList);
+            if (block1.CalculateHash() == block1.Hash)
+            {
+                _blockList.Chain.Add(block);
+
+            }
 
             }
             else
@@ -103,5 +117,6 @@ namespace CP380_B2_BlockWebAPI.Controllers
        
 
 
+}
 }
 }
